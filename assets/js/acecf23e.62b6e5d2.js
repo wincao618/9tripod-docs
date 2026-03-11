@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmy_new_website=globalThis.webpackChunkmy_new_website||[]).push([[1903],{1912(s){s.exports=JSON.parse('{"blogBasePath":"/9tripod-docs/blog","blogTitle":"Blog","authorsListPath":"/9tripod-docs/blog/authors"}')}}]);
