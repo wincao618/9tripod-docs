@@ -50,7 +50,19 @@ const config = {
       },
     },
   },
-
+	// 添加本地搜索插件
+	// docusaurus.config.js
+	plugins: [
+	  [
+		require.resolve("@easyops-cn/docusaurus-search-local"),
+		{
+		  language: ["en", "zh"],  // 支持中英文
+		  indexDocs: true,
+		  indexBlog: true,
+		  hashed: true,  // 推荐开启，利于缓存
+		},
+	  ],
+	],  
   presets: [
     [
       'classic',
